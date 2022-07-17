@@ -11,15 +11,15 @@ namespace Modified_Bubble_Sort
             Random rnd = new Random();
 
             int[] arr = new int[ELEMENTS];
-            for(i=0; i<=ELEMENTS-1; i++)
+            for(i = 0; i <= ELEMENTS - 1; i++)
             {
                 arr[i] = rnd.Next(100);
             }
 
             ModifiedBubbleSort(arr);
-            for(i=0; i<=ELEMENTS-1; i++)
+            for(i = 0; i <= ELEMENTS - 1; i++)
             {
-                Console.Write(arr[i]+" ");
+                Console.Write(arr[i] + " ");
             }
         }
 
